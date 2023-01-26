@@ -21,3 +21,8 @@
 
 -- Next.js também introduziu recentemente o conceito de Static Site Generation (SSG)
 
+-- Next.js é baseado em File System Routing, ou seja, roteamento através de arquivos de sistema
+
+-- É extremamente importante que códigos executados ao lado do servidor sejam apenas para mostrar informações essenciais para bots indexadores de páginas
+
+-- Outro questão é que quando precisa ser realizado alguma ação que necessite de sigilo, exemplo trocar chaves públicas com alguma API, é importante executar ao lado do servidor também
