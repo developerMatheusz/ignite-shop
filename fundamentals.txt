@@ -1,0 +1,23 @@
+-- Next.js é um framework SSR (Server Side Rendering)
+
+-- Apesar de apps SPA's resolverem o problema de interatividade, flexibilidade e conseguir estar em todas as plataformas, ainda assim existe um problema
+
+-- O problema é que não ocorre a indexação nos mecanismos de buscas como o Google
+
+-- O fluxo de indexação ocorre da seguinte forma:
+
+-> Os bots dos navegadores google, firefox, edge, safari e etc vão de site em site buscando consumir o conteúdo do site
+-> Muitas das vezes os bots não utilizam JavaScript, ou seja, uma aplicação em React já não renderiza para o bot
+-> Outra questão é que o bot pode ter um timeout de espera para buscar dados do site muito curto
+-> Como o React.js só envia requisições para uma API quando é acessada a página, o timeout do bot pode ser excedido e o mesmo não consegue acessar os dados
+
+-- Então, quando o bot não localiza a página da melhor forma, para os mecanismos de busca do navegador aquela página fica inacessível
+
+-- Já o Next.js, quando o usuário acessa um site escrito com esse framework, ele se depara com uma página HTML que está sendo renderizada por um servidor Node.js
+
+-- Este servidor Node.js/Next.js consome dados de uma API, monta o HTML com estes dados e devolve para o front-end
+
+-- Neste caso, utilizando a técnica de renderizar ao lado do servidor o código HTML (SSR), o bot consegue acessar nossa página
+
+-- Next.js também introduziu recentemente o conceito de Static Site Generation (SSG)
+
