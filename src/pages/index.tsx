@@ -1,16 +1,11 @@
 import { HomeContainer, Product } from "../styles/pages/home";
-import camiseta1 from "../assets/shirts/1.png";
-import camiseta2 from "../assets/shirts/2.png";
-import camiseta3 from "../assets/shirts/3.png";
-import camiseta4 from "../assets/shirts/4.png";
 import { useKeenSlider } from "keen-slider/react";
-import "keen-slider/keen-slider.min.css";
 import { stripe } from "../lib/stripe";
-import { GetServerSideProps, GetStaticProps } from "next";
+import { GetStaticProps } from "next";
 import Stripe from "stripe";
-import "keen-slider/keen-slider.min.css";
 import Link from "next/link";
 import Image from "next/image";
+import "keen-slider/keen-slider.min.css";
 
 interface HomeProps {
   products: {
@@ -87,8 +82,6 @@ export const getStaticProps: GetStaticProps = async () => {
     }
 
   });
-
-  console.log(response.data);
 
   return {
     props: {

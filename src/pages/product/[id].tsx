@@ -1,9 +1,9 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import Image from "next/image";
-import { useRouter } from "next/router";
-import Stripe from "stripe";
-import { stripe } from "../../lib/stripe";
 import { ImageContainer, ProductContainer, ProductDetails } from "../../styles/pages/product";
+import { stripe } from "../../lib/stripe";
+import { useRouter } from "next/router";
+import Image from "next/image";
+import Stripe from "stripe";
 
 interface ProductProps {
     product: {
