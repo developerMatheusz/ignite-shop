@@ -8,9 +8,9 @@ React é uma biblioteca de componentes JavaScript que serve para construir inter
 
 NextJS veio para resolver o problema que a biblioteca de componentes React enfrentava por se tratar de uma biblioteca que executa ao lado do cliente. Este problema é chamado de indexação de conteúdo e quem os realiza são web crawlers.
 
+## O que são Web Crawlers?
 ![Logo do R](https://neilpatel.com/wp-content/uploads/2019/10/web-crawler-no-marketing-digital.jpeg)
 
-## O que são Web Crawlers?
 Em geral, os web crawlers são bots normalmente utilizados por navegadores de internet, tendo como objetivo percorrer por toda a infraestrutura da internet buscando páginas HTML de servidores Web para indexação de conteúdo.
 
 Estes rastreadores de rede são principalmente utilizados para criar uma cópia de todas as páginas visitadas para um pós-processamento por um motor de pesquisa que irá indexar as páginas baixadas para prover pesquisas mais rápidas.
