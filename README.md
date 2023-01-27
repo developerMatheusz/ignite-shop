@@ -47,3 +47,6 @@ Desta forma, o NextJS só permite o usuário visualizar o conteúdo do site quan
 
 Então o problema de indexação de páginas é resolvido a partir daí. O NextJS utiliza React para criar componentes e devolvê-los para o front-end através de Files System Routing (FSR).
 
+>> [LEMBRETE]: Para poder utilizar a API do stripe, vá ao site stripe.com e faça registro com suas credenciais bancárias. Fique tranquilo, para criar conta não é necessário adicionar cartão de crédito. É necessário apenas adicionar informações que diz respeito a transferência para sua conta, pois será utilizado o modo teste na plataforma da stripe.
+
+>> Após isso, crie um arquivo no diretório raiz do projeto chamado .env.local e adicione 3 chaves com valores. A primeira será o nome NEXT_URL=http://localhost:3000 (diz respeito há URL de acesso ao site localhost feito em NextJS), a segunda chave deve ter o nome de STRIPE_PUBLIC_KEY com o valor da chave pública que o site da stripe lhe oferece em modo teste, a última chave tem o nome de STRIPE_SECRET_KEY e também é fornecida pela plataforma da stripe em modo teste.
