@@ -2,7 +2,7 @@
 # Fundamentos do NextJS
 > O framework React para a Web
 ## O que é NextJS?
-NextJS é um framework Server Side Rendering (SSR) e executa a biblioteca de componentes React ao lado do servidor.
+NextJS é um framework Server Side Rendering (SSR) e Static Site Rendering (SSR) e executa a biblioteca de componentes React ao lado do servidor.
 
 React é uma biblioteca de componentes JavaScript que serve para construir interfaces gráficas Web modernas. Ela utiliza o conceito de Client Side Rendering e Single Page Application.
 
