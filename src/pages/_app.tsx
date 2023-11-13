@@ -7,19 +7,12 @@ import Image from "next/image";
 globalStyles();
 
 export default function App({ Component, pageProps }: AppProps) {
-
-  return(
-
+  return (
     <Container>
       <Header>
-        <Image 
-          src={logoImg} 
-          alt="logo-ignite" 
-        />
+        <Image src={logoImg} alt="logo-ignite" />
       </Header>
-      <Component {...pageProps}/>
+      <Component {...pageProps} />
     </Container>
-
   );
-
 }
